@@ -1,7 +1,7 @@
 #!/bin/bash
 xanh='\033[1;35m'
 red='\033[1;35m'
-green='\033[01;35m'
+green='\033[1;33m'
 yellow='\033[1;34m'
 plain='\033[0m'
 
