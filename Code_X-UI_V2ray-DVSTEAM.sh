@@ -7,6 +7,9 @@ plain='\033[0m'
 echo " https://vpn.dvsteam.tk "
 apt-get update -y
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
+
+fi
+if
 echo " Mở Port 54321 "
 ufw allow 54321
 echo " Mở Port 443 "
