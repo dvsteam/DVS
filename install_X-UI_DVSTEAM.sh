@@ -1,5 +1,5 @@
 # DƯƠNG VĂN SỸ - ZALO: 0835315551
-# Xem bít rồi thì thôi, sủa cái buồi :))
+# Xem bít rồi thì thôi, sủa cái buồi :)) 
 apt-get update -y
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
 echo "》Mở Port 54321《 "
