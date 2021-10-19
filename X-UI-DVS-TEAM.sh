@@ -147,7 +147,7 @@ install_x-ui() {
     echo -e "》x-ui install      ➪ ${xanh}Cài đặt bảng điều khiển x-ui${plain}"
     echo -e "》x-ui uninstall    ➪ ${xanh}Gỡ cài đặt bảng điều khiển x-ui${plain}"
     echo -e "»Truy Cập Vào ${yellow}(https://vpn.dvsteam.tk)${plain} để bít thêm chi tiếc và Gruop. "
-    echo -e "$${yellow}•{xanh}---------------------------------------------${yellow}• "
+    echo -e "$${yellow}•${xanh}---------------------------------------------${yellow}• "
     echo -e "${yellow}© Dương Văn Sỹ - Zalo:0835315551"
     echo -e "${yellow}•${xanh}---------------------------------------------${yellow}• "
 }
