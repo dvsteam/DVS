@@ -1,12 +1,11 @@
 #!/bin/bash
 xanh='\033[0;35m'
-
 red='\033[0;35m'
 green='\033[0;35m'
 yellow='\033[0;34m'
 plain='\033[0m'
 
-
+# Nhìn xem rồi thì thôi sủa đầu buồi :))
 
 cur_dir=$(pwd)
 
@@ -129,30 +128,30 @@ install_x-ui() {
     echo -e "${yellow}Tên người dùng và mật khẩu đều theo mặc định là: ${green}admin${plain}"
     echo -e "Hãy đảm bảo rằng cổng này không bị các chương trình khác chiếm giữ."
     echo -e "${yellow}Và chắc rằng Cổng 54321 đã được mở ${plain}"
-#    echo -e "Nếu bạn muốn 54321 Sửa đổi thành cổng khác, nhập lệnh x-ui để sửa đổi, cũng đảm bảo rằng cổng bạn sửa đổi cũng được phép"
+#   echo -e "Nếu bạn muốn 54321 Sửa đổi thành cổng khác, nhập lệnh x-ui để sửa đổi, cũng đảm bảo rằng cổng bạn sửa đổi cũng được phép"
     echo -e ""
     echo -e "Nếu đó là để cập nhật bảng điều khiển, hãy truy cập bảng điều khiển như bạn đã làm trước đây "
     echo -e ""
     echo -e "Cách sử dụng tập lệnh quản lý: x-ui "
     echo -e "----------------------------------------------"
-    echo -e "x-ui              - ${xanh}Menu quản lý x-ui (nhiều chức năng hơn)${plain} "
-    echo -e "x-ui start        - ${xanh}Khởi chạy bảng điều khiển x-ui${plain} "
-    echo -e "x-ui stop         - ${xanh}Dừng bảng điều khiển x-ui${plain} "
-    echo -e "x-ui restart      - ${xanh}Khởi động lại bảng điều khiển x-ui${plain} "
-    echo -e "x-ui status       - ${xanh}Xem trạng thái x-ui${plain} "
-    echo -e "x-ui enable       - ${xanh}Đặt x-ui tự động khởi động, sau khi khởi động ${plain} "
-    echo -e "x-ui disable      - ${xanh}Hủy khởi động x-ui để bắt đầu tự động${plain} "
-    echo -e "x-ui log          - ${xanh}Xem nhật ký x-ui${plain} "
-    echo -e "x-ui v2-ui        - ${xanh}Di chuyển dữ liệu v2-ui của máy này sang x-ui${plain} "
-    echo -e "x-ui update       - ${xanh}Cập nhật bảng điều khiển x-ui${plain}"
-    echo -e "x-ui install      - ${xanh}Cài đặt bảng điều khiển x-ui${plain}"
-    echo -e "x-ui uninstall    - ${xanh}Gỡ cài đặt bảng điều khiển x-ui${plain}"
-    echo -e "Truy Cập Vào ${yellow}(https://vpn.dvsteam.tk)${plain} để bít thêm chi tiếc và Gruop"
+    echo -e "》x-ui              ➪ ${xanh}Menu quản lý x-ui (nhiều chức năng hơn)${plain} "
+    echo -e "》x-ui start        ➪ ${xanh}Khởi chạy bảng điều khiển x-ui${plain} "
+    echo -e "》x-ui stop         ➪ ${xanh}Dừng bảng điều khiển x-ui${plain} "
+    echo -e "》x-ui restart      ➪ ${xanh}Khởi động lại bảng điều khiển x-ui${plain} "
+    echo -e "》x-ui status       ➪ ${xanh}Xem trạng thái x-ui${plain} "
+    echo -e "》x-ui enable       ➪ ${xanh}Đặt x-ui tự động khởi động, sau khi khởi động ${plain} "
+    echo -e "》x-ui disable      ➪ ${xanh}Hủy khởi động x-ui để bắt đầu tự động${plain} "
+    echo -e "》x-ui log          ➪ ${xanh}Xem nhật ký x-ui${plain} "
+    echo -e "》x-ui v2-ui        ➪ ${xanh}Di chuyển dữ liệu v2-ui của máy này sang x-ui${plain} "
+    echo -e "》x-ui update       ➪ ${xanh}Cập nhật bảng điều khiển x-ui${plain}"
+    echo -e "》x-ui install      ➪ ${xanh}Cài đặt bảng điều khiển x-ui${plain}"
+    echo -e "》x-ui uninstall    ➪ ${xanh}Gỡ cài đặt bảng điều khiển x-ui${plain}"
+    echo -e "»Truy Cập Vào ${yellow}(https://vpn.dvsteam.tk)${plain} để bít thêm chi tiếc và Gruop"
     echo -e "----------------------------------------------"
-    echo -e "${yellow}© Dương Văn Sỹ - Zalo:0835315551${plain}"
+    echo -e "${yellow}© Dương Văn Sỹ - Zalo:0835315551"
     echo -e "----------------------------------------------"
 }
 
-echo -e "${xanh}DVS TEAM Bắt Đầu Cài Đặt X-ui${plain}"
+echo -e "${xanh}Bắt Đầu Cài Đặt X-UI DVS TEAM${plain}"
 install_base
 install_x-ui $1
