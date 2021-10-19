@@ -9,8 +9,7 @@ echo "[Mở Port 80]"
 ufw allow 80
 echo "✔DVS TEAM Cài Đặt  X-UI Thành Công✔"  
 echo "Truy Cập Vào Trình duyệt (Chrome) hoặc (Cốc Cốc)"
-echo "Nhập『Địa Chỉ IPv4』của VPS hoặc 『Tên Miền 
-Thêm Đuôi (:54321) "
+echo "Nhập『Địa Chỉ IPv4』của VPS hoặc『Tên Miền』Thêm Đuôi (:54321)~"
 echo "➩Tài Khoảng(Username) » admin"
 echo "➩Mật Khẩu(Password)   » admin"
 echo "✘Sau Khi Đăng Nhập Vui Lòng Đổi (Mật Khẩu) để tránh bị lộ thông tin"
