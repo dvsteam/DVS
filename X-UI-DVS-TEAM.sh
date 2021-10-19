@@ -1,8 +1,8 @@
 #!/bin/bash
-xanh='\033[0;35m'
-red='\033[0;35m'
-green='\033[0;35m'
-yellow='\033[0;34m'
+xanh='\033[1;35m'
+red='\033[1;35m'
+green='\033[01;35m'
+yellow='\033[1;34m'
 plain='\033[0m'
 
 # Nhìn xem rồi thì thôi sủa đầu buồi :))
