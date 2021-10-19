@@ -10,8 +10,9 @@ plain='\033[0m'
 cur_dir=$(pwd)
 
 # check root
-[[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain} Tập lệnh này phải được chạy với tư cách người dùng gốc(root)！\n"
-echo -e " Vui lòng gõ lệnh: sudo -i , và bắt đầu chạy lại " && exit 1
+[[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain} Tập lệnh này phải được chạy với tư cách người dùng gốc(root)！"
+echo -e " Vui lòng gõ lệnh: sudo -i "
+echo -e " Để kích hoạt root, và thử lại lần nữa \n " && exit 1
 # check os
 if [[ -f /etc/redhat-release ]]; then
     release="centos"
