@@ -1,7 +1,7 @@
 #!/bin/bash
-xanh='\033[0;38m'
+xanh='\033[0;34m'
 
-red='\033[0;32m'
+red='\033[0;35m'
 green='\033[0;35m'
 yellow='\033[0;34m'
 plain='\033[0m'
