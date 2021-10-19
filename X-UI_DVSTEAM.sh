@@ -1,9 +1,11 @@
 #!/bin/bash
 
-red='\033[0;36m'
+red='\033[0;33m'
 green='\033[0;35m'
 yellow='\033[0;34m'
 plain='\033[0m'
+xanh= '\33[0;37'
+
 
 cur_dir=$(pwd)
 
@@ -132,19 +134,19 @@ install_x-ui() {
     echo -e ""
     echo -e "Cách sử dụng tập lệnh quản lý: x-ui "
     echo -e "----------------------------------------------"
-    echo -e "x-ui              - Menu quản lý x-ui (nhiều chức năng hơn)"
-    echo -e "x-ui start        - Khởi chạy bảng điều khiển x-ui"
-    echo -e "x-ui stop         - Dừng bảng điều khiển x-ui"
-    echo -e "x-ui restart      - Khởi động lại bảng điều khiển x-ui"
-    echo -e "x-ui status       - Xem trạng thái x-ui"
-    echo -e "x-ui enable       - Đặt x-ui tự động khởi động, sau khi khởi động"
-    echo -e "x-ui disable      - Hủy khởi động x-ui để bắt đầu tự động"
-    echo -e "x-ui log          - Xem nhật ký x-ui"
-    echo -e "x-ui v2-ui        - Di chuyển dữ liệu tài khoản v2-ui của máy này sang x-ui"
-    echo -e "x-ui update       - Cập nhật bảng điều khiển x-ui"
-    echo -e "x-ui install      - Cài đặt bảng điều khiển x-ui"
-    echo -e "x-ui uninstall    - Gỡ cài đặt bảng điều khiển x-ui"
-    echo -e " Truy Cập Vào (https://vpn.dvsteam.tk) để bít thêm chi tiếc và Gruop"
+    echo -e "x-ui              - ${xanh}Menu quản lý x-ui (nhiều chức năng hơn)"
+    echo -e "x-ui start        - ${xanh}Khởi chạy bảng điều khiển x-ui"
+    echo -e "x-ui stop         - ${xanh}Dừng bảng điều khiển x-ui"
+    echo -e "x-ui restart      - ${xanh}Khởi động lại bảng điều khiển x-ui"
+    echo -e "x-ui status       - ${xanh}Xem trạng thái x-ui"
+    echo -e "x-ui enable       - ${xanh}Đặt x-ui tự động khởi động, sau khi khởi động"
+    echo -e "x-ui disable      - ${xanh}Hủy khởi động x-ui để bắt đầu tự động"
+    echo -e "x-ui log          - ${xanh}Xem nhật ký x-ui"
+    echo -e "x-ui v2-ui        - ${xanh}Di chuyển dữ liệu tài khoản v2-ui của máy này sang x-ui"
+    echo -e "x-ui update       - ${xanh}Cập nhật bảng điều khiển x-ui"
+    echo -e "x-ui install      - ${xanh}Cài đặt bảng điều khiển x-ui"
+    echo -e "x-ui uninstall    - ${xanh}Gỡ cài đặt bảng điều khiển x-ui"
+    echo -e "Truy Cập Vào (https://vpn.dvsteam.tk) để bít thêm chi tiếc và Gruop"
     echo -e "----------------------------------------------"
 }
 
