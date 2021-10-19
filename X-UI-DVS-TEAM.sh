@@ -150,7 +150,7 @@ install_x-ui() {
     echo -e "${xanh}----------------------------------------------"
     echo -e "${yellow}© Dương Văn Sỹ - Zalo:0835315551"
     echo -e "${xanh}----------------------------------------------"
-    echo -e " ${green} "
+#   echo -e "${green}【DVS TEAM】"
 }
 
 echo -e "${xanh}Bắt Đầu Cài Đặt X-UI DVS TEAM${plain}"
