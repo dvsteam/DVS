@@ -1,7 +1,7 @@
 # DƯƠNG VĂN SỸ - ZALO: 0835315551
 apt-get update -y
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
-echo " [[Mở Port 54321]] "
+echo "[Mở Port 54321] "
 ufw allow 54321
 echo "[Mở Port 443]"
 ufw allow 443
