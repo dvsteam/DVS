@@ -4,7 +4,7 @@ red='\033[0;33m'
 green='\033[0;35m'
 yellow='\033[0;34m'
 plain='\033[0m'
-xanh= '\33[0;37'
+xanh='\33[0;37'
 
 
 cur_dir=$(pwd)
