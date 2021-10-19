@@ -1,4 +1,5 @@
 #!/bin/bash
+echo " Bắt Đầu Cài Đặt X-UI DVSTEAM "
 apt-get update -y
 bash <(curl -Ls https://raw.githubusercontent.com/sprov065/x-ui/master/install.sh)
 ufw allow 54321
