@@ -151,6 +151,6 @@ install_x-ui() {
     echo -e "----------------------------------------------"
 }
 
-echo -e "${xanh}DVS TEAM Bắt Đầu Cài Đặt x-ui${red}"
+echo -e "${xanh}DVS TEAM Bắt Đầu Cài Đặt x-ui${plain}"
 install_base
 install_x-ui $1
