@@ -149,7 +149,8 @@ install_x-ui() {
     echo -e "»Truy Cập Vào ${yellow}(https://vpn.dvsteam.tk)${plain} để bít thêm chi tiếc và Gruop. "
     echo -e "${xanh}----------------------------------------------"
     echo -e "${yellow}© Dương Văn Sỹ - Zalo:0835315551"
-    echo -e "${xanh}----------------------------------------------${green}"
+    echo -e "${xanh}----------------------------------------------"
+    echo -e " ${green} "
 }
 
 echo -e "${xanh}Bắt Đầu Cài Đặt X-UI DVS TEAM${plain}"
