@@ -7,7 +7,7 @@ plain='\033[0m'
 
 # Nhìn xem rồi thì thôi sủa đầu buồi :))
 
-cur_dir=$(pwd)
+cur_dir=$(pwd) 
 
 # check root
 [[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain} Tập lệnh này phải được chạy với tư cách người dùng gốc(root)！\n" && exit 1
