@@ -143,14 +143,15 @@ install_x-ui() {
     echo -e "x-ui enable       - ${xanh}Đặt x-ui tự động khởi động, sau khi khởi động ${plain} "
     echo -e "x-ui disable      - ${xanh}Hủy khởi động x-ui để bắt đầu tự động${plain} "
     echo -e "x-ui log          - ${xanh}Xem nhật ký x-ui${plain} "
-    echo -e "x-ui v2-ui        - ${xanh}Di chuyển dữ liệu tài khoản v2-ui của máy này sang x-ui${plain} "
+    echo -e "x-ui v2-ui        - ${xanh}Di chuyển dữ liệu v2-ui của máy này sang x-ui${plain} "
     echo -e "x-ui update       - ${xanh}Cập nhật bảng điều khiển x-ui${plain}"
     echo -e "x-ui install      - ${xanh}Cài đặt bảng điều khiển x-ui${plain}"
     echo -e "x-ui uninstall    - ${xanh}Gỡ cài đặt bảng điều khiển x-ui${plain}"
-    echo -e "Truy Cập Vào (https://vpn.dvsteam.tk) để bít thêm chi tiếc và Gruop"
+    echo -e "Truy Cập Vào ${yellow}(https://vpn.dvsteam.tk)${plain} để bít thêm chi tiếc và Gruop"
     echo -e "----------------------------------------------"
+    echo -e "${yellow}© Dương Văn Sỹ - Zalo:0835315551"
 }
 
-echo -e "${xanh}DVS TEAM Bắt Đầu Cài Đặt x-ui${plain}"
+echo -e "${xanh}DVS TEAM Bắt Đầu Cài Đặt X-ui${plain}"
 install_base
 install_x-ui $1
