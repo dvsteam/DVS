@@ -1,5 +1,5 @@
 #!/bin/bash
-xanh='\033[0;31m'
+xanh='\033[0;34m'
 
 red='\033[0;33m'
 green='\033[0;35m'
@@ -140,7 +140,7 @@ install_x-ui() {
     echo -e "x-ui stop         - ${xanh}Dừng bảng điều khiển x-ui${plain} "
     echo -e "x-ui restart      - ${xanh}Khởi động lại bảng điều khiển x-ui${plain} "
     echo -e "x-ui status       - ${xanh}Xem trạng thái x-ui${plain} "
-    echo -e "x-ui enable       - ${xanh}Đặt x-ui tự động khởi động, sau khi khởi động${plain} "
+    echo -e "x-ui enable       - ${xanh}Đặt x-ui tự động khởi động, sau khi khởi động ${plain} "
     echo -e "x-ui disable      - ${xanh}Hủy khởi động x-ui để bắt đầu tự động${plain} "
     echo -e "x-ui log          - ${xanh}Xem nhật ký x-ui${plain} "
     echo -e "x-ui v2-ui        - ${xanh}Di chuyển dữ liệu tài khoản v2-ui của máy này sang x-ui${plain} "
