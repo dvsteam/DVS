@@ -152,6 +152,6 @@ install_x-ui() {
     echo -e "╚═══*.·:·.☽✧    ✦    ✧☾.·:·.*═══╝  "
 }
 
-echo -e "${xanh}Bắt Đầu Cài Đặt X-UI DVS TEAM${plain}"
+   echo -e "${xanh}Bắt Đầu Cài Đặt X-UI DVS TEAM${plain}"
 install_base
 install_x-ui $1
