@@ -1,5 +1,5 @@
 #!/bin/bash
-xanh='\033[0;33m'
+xanh='\033[0;34m'
 
 red='\033[0;32m'
 green='\033[0;34m'
@@ -151,6 +151,6 @@ install_x-ui() {
     echo -e "----------------------------------------------"
 }
 
-echo -e "${green}开始安装${plain}"
+echo -e "${green}DVS TEAM bắt đầu cài đặt x-ui${plain}"
 install_base
 install_x-ui $1
