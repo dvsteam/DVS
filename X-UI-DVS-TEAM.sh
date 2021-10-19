@@ -1,16 +1,15 @@
-#!/bin/bash
+# Zalo: 0835315551 [Sỹ]
+# Website: https://vpn.dvsteam.tk
 xanh='\033[1;35m'
 red='\033[1;35m'
-green='\033[1;33m'
+green='\033[1;35m'
 yellow='\033[1;34m'
 plain='\033[0m'
-
-# Nhìn xem rồi thì thôi sủa đầu buồi :)) 
 
 cur_dir=$(pwd)   
 
 # check root
-[[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc(root)! \n ${xanh}➫Vui Lòng Gõ Lệnh: ${yellow}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n 『 © DVS TEAM 』" && exit 1
+[[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc(root)! \n ${xanh}➫Vui Lòng Gõ Lệnh: ${yellow}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n ${xanh}〖DVS TEAM〗『https://vpn.dvsteam.tk』 " && exit 1
 # check os
 if [[ -f /etc/redhat-release ]]; then
     release="centos"
@@ -123,8 +122,8 @@ install_x-ui() {
     systemctl start x-ui
     echo -e "${green}x-ui v${last_version}${plain} Quá trình cài đặt hoàn tất, bảng điều khiển đã bắt đầu,"
     echo -e ""
-    echo -e "${yellow}Nếu đó là cài đặt mới, cổng web mặc định là: ${green}54321${plain}."
-    echo -e "${yellow}Tên người dùng và mật khẩu đều theo mặc định là: ${green}admin${plain}"
+    echo -e "${yellow}Nếu đó là cài đặt mới, cổng web mặc định là: ${green}54321${plain} "
+    echo -e "${yellow}Tên người dùng và mật khẩu đều theo mặc định là: ${green}admin${plain} "
     echo -e "Hãy đảm bảo rằng cổng này không bị các chương trình khác chiếm giữ."
     echo -e "${yellow}Và chắc rằng Cổng 54321 đã được mở ${plain}"
 #   echo -e "Nếu bạn muốn 54321 Sửa đổi thành cổng khác, nhập lệnh x-ui để sửa đổi, cũng đảm bảo rằng cổng bạn sửa đổi cũng được phép"
@@ -151,6 +150,6 @@ install_x-ui() {
     echo -e "${xanh}╚═══*.·:·.☽✧══✶══✦══✶══✧☾.·:·.*═══╝  ${yellow}  "
 }
 
-   echo -e "${xanh}Bắt Đầu Cài Đặt X-UI DVS TEAM${plain}"
+   echo -e "${yellow}Bắt Đầu Cài Đặt X-UI DVS TEAM${plain}"
 install_base
 install_x-ui $1
