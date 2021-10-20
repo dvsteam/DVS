@@ -10,20 +10,20 @@ cur_dir=$(pwd)
 # Mã Lệnh DVS TEAM
 apt-get update -y
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
-echo "》『Mở Port: 54321』《 "
+echo "》『Mở Port: 54321』"
 ufw allow 54321
-echo "》『Mở Port: 443』《 "
+echo "》『Mở Port: 443』 "
 ufw allow 443
-echo "》『Mở Port: 80』《 "
+echo "》『Mở Port: 80』 "
 ufw allow 80
-echo -e "${plain}----------------------------------------------"
+echo -e "${tim}════════════════════════════  ${plain}"           
 echo -e "${vang}✔•DVS TEAM Đã Hoàn Tất Cài Đặt X-UI•✔ ${plain}"  
-echo -e "---------------------------------------------- "
-echo -e "${xanhluc}1.Truy Cập Vào Trình duyệt (Chrome) hoặc (Cốc Cốc) "
-echo -e "2.Nhập『Địa Chỉ IPv4』của VPS hoặc『Tên Miền』Thêm Đuôi (:54321) "
-echo -e "➩Tài Khoảng(Username) » admin  "
-echo -e "➩Mật Khẩu(Password)   » admin  ${plain} "
-echo -e "----------------------------------------------"
+echo -e "${tim}════════════════════════════  ${plain}"
+echo -e "${xanhluc}1.Truy Cập Vào Trình duyệt ${tim}(Chrome)${plain} hoặc ${tim}(Cốc Cốc) ${plain}"
+echo -e "2.Nhập『Địa Chỉ IPv4』của VPS hoặc『Tên Miền』Thêm Đuôi (:54321)${plain}  "
+echo -e "➩Tài Khoảng(Username) » ${tim}admin ${plain}"
+echo -e "➩Mật Khẩu(Password)   » ${tim}admin ${plain} ".   .
+echo -e "${tim}════════════════════════════  ${plain}"
 echo -e "${lam}✘Sau Khi Đăng Nhập Vui Lòng Đổi (Mật Khẩu) để tránh bị lộ thông tin. "
 echo -e "➢Tham Gia Nhóm Hỗ Trợ Tại: https://vpn.dvsteam.tk  "
 echo -e "▂ ▄ ▅ ▇【Copyright © DVS TEAM】▇ ▆ ▄ ▂    "
