@@ -1,14 +1,17 @@
 # DƯƠNG VĂN SỸ - ZALO: 0835315551
-xanh='\033[1;35m'
-red='\033[1;35m'
-green='\033[1;35m'
-yellow='\033[1;34m'
+đen="\[\033[1;30m\]"          # Black
+đỏ="\[\033[1;31m\]"           # Red
+xanhlục="\[\033[1;32m\]"      # Green
+vàng="\[\033[1;33m\]"         # Yellow
+lam="\[\033[1;34m\]"          # Blue
+tím="\[\033[1;35m\]"          # Purple
+lụclam="\[\033[1;36m\]"       # Cyan
+trắng="\[\033[1;37m\]"        # White
 plain='\033[0m'
 cur_dir=$(pwd)  
-
 # check root
 [[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc(root)! \n ${xanh}➫Vui Lòng Gõ Lệnh: ${yellow}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n ${xanh}〖DVS TEAM〗『https://vpn.dvsteam.tk』 " && exit 1
-# Mã Lệnh
+# Mã Lệnh DVS TEAM
 apt-get update -y
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
 echo "》『Mở Port: 54321』《 "
@@ -17,15 +20,15 @@ echo "》『Mở Port: 443』《 "
 ufw allow 443
 echo "》『Mở Port: 80』《 "
 ufw allow 80
-echo "----------------------------------------------"
-echo -e "${xanh}✔•DVS TEAM Đã Hoàn Tất Cài Đặt X-UI•✔ "  
-echo "---------------------------------------------- "
-echo "1.Truy Cập Vào Trình duyệt (Chrome) hoặc (Cốc Cốc) "
-echo "2.Nhập『Địa Chỉ IPv4』của VPS hoặc『Tên Miền』Thêm Đuôi (:54321) "
-echo "➩Tài Khoảng(Username) » admin  "
-echo "➩Mật Khẩu(Password)   » admin  "
-echo "----------------------------------------------"
-echo "✘Sau Khi Đăng Nhập Vui Lòng Đổi (Mật Khẩu) để tránh bị lộ thông tin. "
-echo "➢Tham Gia Nhóm Hỗ Trợ Tại: https://vpn.dvsteam.tk  "
-echo "▂ ▄ ▅ ▇【Copyright © DVS TEAM】▇ ▆ ▄ ▂  "
-echo "----------------------------------------------"
+echo -e "${plain}----------------------------------------------"
+echo -e "${tím}✔•DVS TEAM Đã Hoàn Tất Cài Đặt X-UI•✔ ${plain}"  
+echo -e "---------------------------------------------- "
+echo -e "${lam}1.Truy Cập Vào Trình duyệt (Chrome) hoặc (Cốc Cốc) "
+echo -e "2.Nhập『Địa Chỉ IPv4』của VPS hoặc『Tên Miền』Thêm Đuôi (:54321) "
+echo -e "➩Tài Khoảng(Username) » admin  "
+echo -e "➩Mật Khẩu(Password)   » admin  ${plain}"
+echo -e "----------------------------------------------"
+echo -e "✘Sau Khi Đăng Nhập Vui Lòng Đổi (Mật Khẩu) để tránh bị lộ thông tin. "
+echo -e "➢Tham Gia Nhóm Hỗ Trợ Tại: https://vpn.dvsteam.tk  "
+echo -e "▂ ▄ ▅ ▇【Copyright © DVS TEAM】▇ ▆ ▄ ▂  "
+echo -e "----------------------------------------------"
