@@ -18,7 +18,7 @@ ufw allow 443
 echo "》『Mở Port: 80』《 "
 ufw allow 80
 echo "----------------------------------------------"
-echo "${xanh}✔•DVS TEAM Đã Hoàn Tất Cài Đặt X-UI•✔ "  
+echo -e "${xanh}✔•DVS TEAM Đã Hoàn Tất Cài Đặt X-UI•✔ "  
 echo "---------------------------------------------- "
 echo "1.Truy Cập Vào Trình duyệt (Chrome) hoặc (Cốc Cốc) "
 echo "2.Nhập『Địa Chỉ IPv4』của VPS hoặc『Tên Miền』Thêm Đuôi (:54321) "
