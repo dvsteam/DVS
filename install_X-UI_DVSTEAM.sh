@@ -1,4 +1,11 @@
-# DƯƠNG VĂN SỸ - ZALO: 0835315551 
+# DƯƠNG VĂN SỸ - ZALO: 0835315551
+xanh='\033[1;35m'
+red='\033[1;35m'
+green='\033[1;35m'
+yellow='\033[1;34m'
+plain='\033[0m'
+cur_dir=$(pwd)  
+
 # check root
 [[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc(root)! \n ${xanh}➫Vui Lòng Gõ Lệnh: ${yellow}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n ${xanh}〖DVS TEAM〗『https://vpn.dvsteam.tk』 " && exit 1
 # Mã Lệnh
@@ -11,7 +18,7 @@ ufw allow 443
 echo "》『Mở Port: 80』《 "
 ufw allow 80
 echo "----------------------------------------------"
-echo "✔•DVS TEAM Đã Hoàn Tất Cài Đặt X-UI•✔ "  
+echo "${xanh}✔•DVS TEAM Đã Hoàn Tất Cài Đặt X-UI•✔ "  
 echo "---------------------------------------------- "
 echo "1.Truy Cập Vào Trình duyệt (Chrome) hoặc (Cốc Cốc) "
 echo "2.Nhập『Địa Chỉ IPv4』của VPS hoặc『Tên Miền』Thêm Đuôi (:54321) "
