@@ -1,7 +1,7 @@
 # DƯƠNG VĂN SỸ - ZALO: 0835315551 
 # check root
 [[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc(root)! \n ${xanh}➫Vui Lòng Gõ Lệnh: ${yellow}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n ${xanh}〖DVS TEAM〗『https://vpn.dvsteam.tk』 " && exit 1
-# DVS
+# Mã Lệnh
 apt-get update -y
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
 echo "》『Mở Port: 54321』《 "
@@ -22,5 +22,3 @@ echo "✘Sau Khi Đăng Nhập Vui Lòng Đổi (Mật Khẩu) để tránh bị
 echo "➢Tham Gia Nhóm Hỗ Trợ Tại: https://vpn.dvsteam.tk  "
 echo "▂ ▄ ▅ ▇【Copyright © DVS TEAM】▇ ▆ ▄ ▂  "
 echo "----------------------------------------------"
-# check root
-[[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain} Tập lệnh này phải được chạy với tư cách người dùng gốc(root)！\n" && exit 1
