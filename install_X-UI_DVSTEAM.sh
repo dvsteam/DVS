@@ -1,12 +1,12 @@
 # DƯƠNG VĂN SỸ - ZALO: 0835315551
-đen='[\033[1;30m'          # Black
-đỏ="\[\033[1;31m'           # Red
-xanhlục='[\033[1;32m'     # Green
-vàng='[\033[1;33m'        # Yellow
-lam='[\033[1;34m\]"          # Blue
-tím='[\033[1;35m'        # Purple
-lụclam="\[\033[1;36m'       # Cyan
-trắng='[\033[1;37m'       # White
+đen='\033[1;30m'     
+đỏ='\033[1;31m'        
+xanhlục='\033[1;32m'   
+vàng='\033[1;33m'      
+lam='\033[1;34m\]"         
+tím='\033[1;35m'      
+lụclam="\[\033[1;36m'       
+trắng='\033[1;37m'       
 plain='\033[0m'
 cur_dir=$(pwd)  
 # check root
@@ -26,7 +26,7 @@ echo -e "---------------------------------------------- "
 echo -e "${lam}1.Truy Cập Vào Trình duyệt (Chrome) hoặc (Cốc Cốc) "
 echo -e "2.Nhập『Địa Chỉ IPv4』của VPS hoặc『Tên Miền』Thêm Đuôi (:54321) "
 echo -e "➩Tài Khoảng(Username) » admin  "
-echo -e "➩Mật Khẩu(Password)   » admin  ${plain}"
+echo -e "➩Mật Khẩu(Password)   » admin  ${plain} "
 echo -e "----------------------------------------------"
 echo -e "✘Sau Khi Đăng Nhập Vui Lòng Đổi (Mật Khẩu) để tránh bị lộ thông tin. "
 echo -e "➢Tham Gia Nhóm Hỗ Trợ Tại: https://vpn.dvsteam.tk  "
