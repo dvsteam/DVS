@@ -6,7 +6,7 @@ tim='\033[1;35m'
 plain='\033[0m'
 cur_dir=$(pwd)  
 # check root
-[[ $EUID -ne 0 ]] && echo -e "${tim}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc ${tim}(root)! \n ${tim}➫Vui Lòng Gõ Lệnh: ${yellow}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n ${vang}〖DVS TEAM〗『https://vpn.dvsteam.tk』${plain} " && exit 1
+[[ $EUID -ne 0 ]] && echo -e "${tim}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc ${tim}(root)! \n ${tim}➫Vui Lòng Gõ Lệnh: ${lam}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n${vang}➲〖DVS TEAM〗『https://vpn.dvsteam.tk』${plain} " && exit 1
 # Mã Lệnh DVS TEAM
 apt-get update -y
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
