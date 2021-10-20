@@ -22,3 +22,5 @@ echo "✘Sau Khi Đăng Nhập Vui Lòng Đổi (Mật Khẩu) để tránh bị
 echo "➢Tham Gia Nhóm Hỗ Trợ Tại: https://vpn.dvsteam.tk  "
 echo "▂ ▄ ▅ ▇【Copyright © DVS TEAM】▇ ▆ ▄ ▂  "
 echo "----------------------------------------------"
+# check root
+[[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain} Tập lệnh này phải được chạy với tư cách người dùng gốc(root)！\n" && exit 1
