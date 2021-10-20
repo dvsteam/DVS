@@ -1,11 +1,9 @@
-# DƯƠNG VĂN SỸ - ZALO: 0835315551
-đen='\033[1;30m'     
-đỏ='\033[1;31m'        
+# DƯƠNG VĂN SỸ - ZALO: 0835315551      
 xanhlục='\033[1;32m'   
-vàng='\033[1;33m'      
-lam='\033[1;34m\]"         
-tím='\033[1;35m'      
-lụclam="\[\033[1;36m'       
+vang='\033[1;33m'      
+lam='\033[1;34m'        
+tim='\033[1;35m'      
+llam='\033[1;36m'       
 trắng='\033[1;37m'       
 plain='\033[0m'
 cur_dir=$(pwd)  
@@ -21,14 +19,14 @@ ufw allow 443
 echo "》『Mở Port: 80』《 "
 ufw allow 80
 echo -e "${plain}----------------------------------------------"
-echo -e "${tím}✔•DVS TEAM Đã Hoàn Tất Cài Đặt X-UI•✔ ${plain}"  
+echo -e "${vang}✔•DVS TEAM Đã Hoàn Tất Cài Đặt X-UI•✔ ${plain}"  
 echo -e "---------------------------------------------- "
 echo -e "${lam}1.Truy Cập Vào Trình duyệt (Chrome) hoặc (Cốc Cốc) "
 echo -e "2.Nhập『Địa Chỉ IPv4』của VPS hoặc『Tên Miền』Thêm Đuôi (:54321) "
 echo -e "➩Tài Khoảng(Username) » admin  "
 echo -e "➩Mật Khẩu(Password)   » admin  ${plain} "
 echo -e "----------------------------------------------"
-echo -e "✘Sau Khi Đăng Nhập Vui Lòng Đổi (Mật Khẩu) để tránh bị lộ thông tin. "
+echo -e "${lam}✘Sau Khi Đăng Nhập Vui Lòng Đổi (Mật Khẩu) để tránh bị lộ thông tin. "
 echo -e "➢Tham Gia Nhóm Hỗ Trợ Tại: https://vpn.dvsteam.tk  "
-echo -e "▂ ▄ ▅ ▇【Copyright © DVS TEAM】▇ ▆ ▄ ▂  "
-echo -e "----------------------------------------------"
+echo -e "▂ ▄ ▅ ▇【Copyright © DVS TEAM】▇ ▆ ▄ ▂    "
+echo -e "---------------------------------------------- ${plain}"
