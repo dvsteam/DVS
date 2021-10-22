@@ -1,11 +1,12 @@
-# DƯƠNG VĂN SỸ - ZALO: 0835315551      
+# DƯƠNG VĂN SỸ - ZALO: 0835315551 
+# Tham Gia Nhóm Tại: https://vpn.dvsteam.tk
 xanhluc='\033[1;32m'   
 vang='\033[1;33m'      
 lam='\033[1;34m'        
 tim='\033[1;35m'           
 plain='\033[0m'
 cur_dir=$(pwd)  
-# check root
+# check root vps
 [[ $EUID -ne 0 ]] && echo -e "${tim}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc ${tim}(root)! \n ${tim}➫Vui Lòng Gõ Lệnh: ${lam}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n${vang}➲〖DVS TEAM〗『https://vpn.dvsteam.tk』${plain} " && exit 1
 # Mã Lệnh DVS TEAM
 apt-get update -y
