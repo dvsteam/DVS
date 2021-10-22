@@ -9,8 +9,9 @@ cur_dir=$(pwd)
 # DVS TEAM Root VPS
 [[ $EUID -ne 0 ]] && echo -e "${tim}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc ${tim}(root)! \n ${tim}➫Vui Lòng Gõ Lệnh: ${lam}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n${vang}➲〖DVS TEAM〗『https://vpn.dvsteam.tk』${plain} " && exit 1
 # Mã Lệnh
-sudo apt install speedtest-cli -y
 apt-get update -y
+sudo apt install speedtest-cli -y
+
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
 echo "》『Mở Port: 54321』"
 ufw allow 54321
