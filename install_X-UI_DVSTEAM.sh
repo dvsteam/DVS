@@ -6,9 +6,9 @@ lam='\033[1;34m'
 tim='\033[1;35m'           
 plain='\033[0m'
 cur_dir=$(pwd)  
-# check root vps
+# DVS TEAM Root VPS
 [[ $EUID -ne 0 ]] && echo -e "${tim}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc ${tim}(root)! \n ${tim}➫Vui Lòng Gõ Lệnh: ${lam}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n${vang}➲〖DVS TEAM〗『https://vpn.dvsteam.tk』${plain} " && exit 1
-# Mã Lệnh DVS TEAM
+# Mã Lệnh
 apt-get update -y
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
 echo "》『Mở Port: 54321』"
@@ -29,3 +29,4 @@ echo -e "${lam}✘Sau Khi Đăng Nhập Vui Lòng Đổi (Mật Khẩu) để tr
 echo -e "➢Tham Gia Nhóm Hỗ Trợ Tại: ${vang}https://vpn.dvsteam.tk ${plain} "
 echo -e "▂ ▄ ▅ ▇【Copyright © DVS TEAM】▇ ▆ ▄ ▂   "
 echo -e "${tim}════════════════════════════════════════════════════    ${plain}"
+# DVS TEAM © https://vpn.dvsteam.tk
