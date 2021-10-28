@@ -32,5 +32,5 @@ echo -e "➢Tham Gia Nhóm Hỗ Trợ Tại: ${vang}https://vpn.dvsteam.tk ${pla
 echo -e "▂ ▄ ▅ ▇【Copyright © DVS TEAM】▇ ▆ ▄ ▂   "
 echo -e "${tim}════════════════════════════════════════════════════    ${plain}"
 echo -e "${lam}【KIỂM TRA TỐC ĐỘ MẠNG VPS】${tim}"
-speedtest
+speedtest -y
 # DVS TEAM © https://vpn.dvsteam.tk
