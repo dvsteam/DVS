@@ -10,7 +10,7 @@ cur_dir=$(pwd)
 [[ $EUID -ne 0 ]] && echo -e "${tim}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc ${tim}(root)! \n ${tim}➫Vui Lòng Gõ Lệnh: ${lam}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n${vang}➲〖DVS TEAM〗『https://vpn.dvsteam.tk』${plain} " && exit 1
 # Mã Lệnh
 apt-get update -y
-sudo apt install speedtest-cli -y
+apt install speedtest-cli -y
 # Cài Đặt X-UI và mở port
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
 echo "》『Mở Port: 54321』"
@@ -32,5 +32,5 @@ echo -e "➢Tham Gia Nhóm Hỗ Trợ Tại: ${vang}https://vpn.dvsteam.tk ${pla
 echo -e "▂ ▄ ▅ ▇【Copyright © DVS TEAM】▇ ▆ ▄ ▂   "
 echo -e "${tim}════════════════════════════════════════════════════    ${plain}"
 echo -e "${lam}【KIỂM TRA TỐC ĐỘ MẠNG VPS】${tim}"
-speedtest
+speedtest-cli
 # DVS TEAM © https://vpn.dvsteam.tk
