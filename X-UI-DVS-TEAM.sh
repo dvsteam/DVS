@@ -119,6 +119,7 @@ install_x-ui() {
     systemctl daemon-reload
     systemctl enable x-ui
     systemctl start x-ui
+clear
     echo -e "${green}x-ui v${last_version}${plain} Quá trình cài đặt hoàn tất, bảng điều khiển đã bắt đầu,"
     echo -e ""
     echo -e "${yellow}Nếu đó là cài đặt mới, cổng web mặc định là: ${green}54321${plain} "
@@ -152,3 +153,4 @@ install_x-ui() {
    echo -e "${yellow}Bắt Đầu Cài Đặt X-UI DVS TEAM${plain}"
 install_base
 install_x-ui $1
+# DVS TEAM VPN
