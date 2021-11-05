@@ -11,6 +11,7 @@ cur_dir=$(pwd)
 # Mã Lệnh
 apt-get update -y
 sudo apt install speedtest-cli
+clear
 # Cài Đặt X-UI và mở port
 bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
 echo "》『Mở Port: 54321』"
