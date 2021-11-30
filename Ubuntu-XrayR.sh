@@ -20,5 +20,7 @@ curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compo
 chmod +x /usr/local/bin/docker-compose
 # Cài Đặt Xray DVSTEAM
 git clone https://github.com/XrayR-project/XrayR-release
-cd XrayR-release/config && vi config.yml
+cd XrayR-release/config
+vi config.yml
+
 # DVSTEAM 1CLICK
